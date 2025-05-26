@@ -383,7 +383,7 @@ fvec_Linf_ppc(const float* x, const float* y, size_t d) {
 }
 
 float
-fvec_inner_product_ref_ppc(const float *x, const float *y, size_t d)
+fvec_inner_product_ppc(const float *x, const float *y, size_t d)
 {
     size_t i, base;
     float res = 0.0f;
